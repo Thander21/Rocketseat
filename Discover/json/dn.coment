@@ -1,0 +1,3 @@
+
+  "// iniciar servidor"
+  "posts json-server --watch db.json"

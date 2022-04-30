@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: ;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* =========== HEADER =========== */
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #2D4A22;
+    padding: 2rem 0 10rem;
+}
+
+header h1#logo{
+    font-weight: 100;
+    color: white;
+}
+
+/* =========== BALANCE =========== */
+
+.balance{
+    display: flex;
+    display: inline;
+}
+

@@ -1,0 +1,28 @@
+//Navegando Pelos Elementos
+
+const body = document.querySelector('body')
+console.log(body.parentNode)
+
+const h1 = document.querySelector('h1')
+console.log(body.parentElement)
+
+console.log(body.childNodes)
+
+console.log(body.children)
+
+console.log(body.firstChild)
+
+console.log(body.firstElementChild)
+
+console.log(body.lastChild)
+
+console.log(body.lastElementChild)
+
+
+const header = document.querySelector('header')
+
+console.log(header.nextSibling)
+
+console.log(header.previousSibling)
+
+console.log(header.previousElementSibling)
